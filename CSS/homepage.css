@@ -1,0 +1,330 @@
+				html ,body
+				{
+					
+					width: 99;
+					overflow-x:hidden;
+					background-color:#cccccc;
+
+					
+					-webkit-font-smoothing: antialiased;
+					-moz-font-smoothing: antialiased;:
+				}
+				#tt
+				{
+					position: relative;
+					margin-top: 0.2%;
+					margin-left: 20%;
+					margin-right: 20%;
+					background: white;
+				}
+				#head
+				{
+
+					margin:0;	
+					opacity: 200;
+					z-index: 100;
+									
+				}
+				.rep
+				{
+					position: absolute;
+					top:0px;
+				}
+				.tag
+				{
+					
+					float:right;
+					display: inline-block;
+				}
+				.tag1
+				{
+					float:none;
+				}
+				
+				
+				#out
+
+				{
+					position: relative;
+
+					background-color: #051414;
+					height: 53px;
+					z-index: 2000;
+					
+					text-align: center;
+					
+								
+				}
+				#el
+				{
+					
+					
+					
+  					
+					display:inline-block;
+					color:white;
+					font-weight: bold;
+					font-size=22px;
+					color:#0093dd; 
+					margin: 18px auto;
+					-webkit-transition: margin 0.5s ease-in-out;
+					-moz-transition: margin 0.5s ease-in-out;
+                	
+    				
+				}
+				
+				
+				#out #bas
+				{
+					position:absolute;
+					top:60px;
+					left:0%;
+					width: 99%;
+					height: 34px;
+					background: #051414;color:white;
+					font-weight: bold;
+					font-size=24px;
+
+				}
+				#out #bas #bi
+				{
+					position: relative;
+					top:-9px;
+					text-align: center;
+					width: 68%;
+					color:white;
+					font-weight: bold;
+					font-size=18px;
+				}
+				
+				#out #bas #bi li
+				{
+					
+
+					display:inline;
+					margin-right: 19px;
+					text-align: center;
+					list-style: none;
+					float:right;
+					width: 120px;
+					
+					background-image:url(bckkk.jpg);
+					
+					
+
+				}
+				#out #bas #bi li
+				{
+					
+				}
+				#out #bas #bi li a
+				{
+					text-align: center;
+					text-decoration: none;
+					font-size: 19px;
+					font-family:Garamond;
+					padding: 22px 7px 12px 7px;
+					color: #e5eeff;
+					
+					background-image:url(bckkk.jpg);
+					
+				}
+				#out #bas #bi li a:visited
+				{
+					color: #e5eeff;
+
+				}
+				#out #bas #bi li a:active
+				{
+					color: #769;
+
+				}
+
+				
+				#el li
+				{
+					
+
+					text-align: center;
+					list-style:none; 
+					float: left;
+					height: 40px;
+					min-height: 40px;
+					margin-right:62px;
+					-webkit-transition: margin 0.4s ease-in-out;
+					-moz-transition: background-color 0.5s ease-in-out;
+
+
+ 					 	
+ 				}
+ 			    #el li:nth-child(1)  
+ 				{
+ 					
+ 				}
+ 				#el > li 
+ 				{
+ 					margin-left: 34px;
+ 				}
+
+				#el  li a
+				{
+					
+					
+					font-family:Lucida Sans Unicode,CopperPlate,Josefin Sans,Merriweather,Arial;
+					text-decoration: none;
+					font-size: 18px;
+					color:white;
+					padding:15.7px 22px 9px 20px ;
+					
+					background-image:url(bckkk.jpg);
+					
+					
+					
+					/*border: 2px solid red;
+					background: white;*/
+				
+					
+					
+				}
+				#el li a:hover
+				{
+					font-weight: bold;
+					font-size:26px;
+					font-family:Verdana	;
+					
+					text-transform: uppercase;
+					color: Black;
+					padding-bottom: 17px;
+				}
+				ul li a:visited
+				{
+					color:#4f99f2;
+				}
+				
+
+				#out.scrolled 
+				{
+					
+					background-color: #123;
+  					margin: 0;
+  					position: fixed;
+  					top: 0;
+  					left:0;
+  					right: 0;
+  					z-index: 300;
+  					box-shadow: 10px 10px 5px #222;
+  					-webkit-transition: background-color 0.5s ease-in-out;
+  					-moz-transition: background-color 0.5s ease-in-out;
+  					
+  					
+				}
+
+				#out.scrolled #el 
+				{
+
+
+					margin-right: 33px;
+					
+					
+				}
+				#out.scrolled #bas
+				{
+					background-color: #123;
+					width: 100%;
+					-webkit-transition: background-color 0.5s ease-in-out;
+					-moz-transition: background-color 0.5s ease-in-out;
+					
+				}
+				#out.scrolled #el li
+				{
+					
+					margin-right: 11px; 
+
+				} 
+
+				#out.scrolled #el list-style a
+				{
+					
+					 
+				} 
+				.fix-body
+				{
+					margin-top: 64px;
+				}
+				/*From here on:Body Stuff*/
+				#imagi
+				{
+					position:relative; 
+					margin-top: 10px;
+					background:;
+					width: 99%;
+					margin-left: 0.7%;
+					min-height:400px;
+					
+
+				}
+				
+				#imagi img 
+				{ 
+					position:absolute; 
+					left:0; 
+					top:0; 
+					width: 99%;
+					height:400px;
+				}
+				#upc
+				{
+					position:relative; 
+					background: #001a0d;
+					width: 100%;
+					height:1050px;
+					z-index: 20;
+
+
+
+				}
+				#moto
+				{
+					background: white;
+					width: 90%;
+					left:5%;
+					height:400px;
+					
+
+
+				}
+				.rem
+				{
+					display: inline;
+				}
+ 					
+				 #pho1
+				 {
+				 	position:relative;
+  					height:300px;
+  					width:300px;
+  					display: inline;
+  						
+				 }
+				 #pho1 > img
+				 {
+				 	margin-left:2%;
+				 }
+				 #pho1 img
+				 {
+				 	float: left;
+				 	margin-top:3px; 
+  					height:300px;
+  					width:300px;
+  					margin-left:2.9%; 
+  					margin-top: 20px;
+  					margin-right:1%;
+
+
+  					-webkit-transition: opacity 1s ease-in-out;
+  					-moz-transition: opacity 1s ease-in-out;
+  					
+				 }
+				 
+
+				

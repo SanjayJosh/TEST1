@@ -1,0 +1,161 @@
+				html ,body
+				{
+					
+					width: 99%;
+					overflow-x:hidden;
+					background-color:white;
+					height:1200px;
+					
+					
+					-webkit-font-smoothing: antialiased;
+				}
+				
+				
+				#head
+				{
+					margin:0	;	
+					opacity: 200;
+					z-index: 100;
+									
+				}
+				td div{text-align:center;}
+				#mine
+				{
+				  margin-left:20%;
+				  margin-right:20%;
+				  z-index:-1;
+				  
+				  
+				  background:white;	
+				}
+				#dpdwn a
+				{display:block;z-index:560;}
+				
+				
+				
+				.tag
+				{
+					
+					float:right;
+					display: inline-block;
+				}
+				.tag1
+				{
+					float:none;
+				}
+				
+				#out
+
+				{
+
+					background-color: grey;
+					min-height: 70px;
+					max-height: 70px;
+					text-align: center;
+					z-index:300;
+							
+					
+					
+				}
+				#el
+				{
+					
+					
+					
+  					
+					display:inline-block;
+					
+					color:black;
+					background:grey; 
+					margin: 21px auto;
+					
+                	
+    				
+				}
+
+				#el li
+				{
+					
+
+					text-align: center;
+					list-style:none; 
+					float: left;
+					height: 50px;
+					min-height: 50px;
+					margin-right:62px;
+					z-index:80;
+					-webkit-transition: margin 0.5s ease-in-out;
+
+
+ 					 	
+ 				}
+ 			    #el li:nth-child(1)  
+ 				{
+ 					
+ 				}
+
+
+				#el  li a
+				{
+					
+					z-index:2000;
+					font-family:Lucida Sans Unicode,CopperPlate,Josefin Sans,Merriweather,Arial;
+					text-decoration: none;
+					
+					
+					padding:20.7px 32px 24px 30px ;
+					background:grey;
+					
+					
+					/*border: 2px solid red;
+					background: white;*/
+				
+					
+					
+				}
+
+				#el li a:hover
+				{
+					font-weight: bold;
+					font-family:Roboto	;
+					
+					text-transform: uppercase;
+					color: black;
+					padding-bottom: 31px;
+				}
+				ul li a:visited
+				{
+					color:#4f99f2;
+				}
+
+				#out.scrolled 
+				{
+					
+					background-color: #123;
+  					margin: 0;
+  					position: fixed;
+  					top: 0;
+  					left:0;
+  					right: 0;
+  					z-index: 300;
+  					 box-shadow: 10px 10px 5px #222;
+  					-webkit-transition: background-color 0.3s ease;
+				}
+
+				#out.scrolled #el 
+				{
+
+					
+				}
+				#out.scrolled #el li
+				{
+					 margin: 0 22px;
+				} 
+				.fix-body
+				{
+					margin-top: 74px;
+				}
+ 					
+				 
+
+				

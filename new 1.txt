@@ -1,0 +1,45 @@
+		->select the phone
+->gives the features phone 
+->To compare two phones
+->each phone is an object
+->we define a compare function
+->we have arrays of phones(object)
+->textbox1 vs textbox2     
+->Each company has its specific color
+->hover over phone increases size
+->for comparision: put a pi-chart and star rating
+->review last ones
+->share on fb and google+
+->popular comparisions on home page
+->image selector on home page as rows for each company
+->while comparing we use circles with colour-filling to determine satisfaction of each category
+->for comparision serach text is decide
+	-home
+	-about us
+	-contact us
+		(a query box) 
+	-flagship products
+	.
+	.
+	.
+	.
+	-trending now
+	.
+	.	
+	.
+	.
+	-brands(with logos)
+	.android
+		.
+		.
+		.
+	.apple
+		.
+		.
+		.
+	.windows
+		.
+		.
+		.
+	
+	-Last Reviewed
